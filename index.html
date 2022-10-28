@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		 <style type="text/css">
+			 span{
+				 color: pink;
+			 }
+		 	*{
+				margin: 0;
+				padding: 0;
+			}
+			li{
+				list-style: none;
+			}
+			a{
+				text-decoration: none;
+				color: #06c;
+			}
+			.div1{
+				position: relative;
+				/* float: left; */
+				width: 650px;
+				height: 850px;
+				margin: 10px auto;
+				/* margin-left: 500px; */
+				border: 2px solid black;
+				border-radius: 5px;
+	
+			}
+			.div2{
+				float: left;
+				height: 840px;
+				width: 180px;
+				background-color: #262626;
+				border-radius: 2px;
+			}
+			.div3{
+				float: left;
+				width: 465px;
+				height: 800px;
+			}
+			.img{
+				width: 140px;
+				margin: 20px;
+				border: 3px skyblue double;
+				border-radius: 50%;
+				box-shadow: 2px 2px 10px #06c;
+			}
+			ul li{
+				color: #e4e4e4;
+			}
+			.divli{
+				width: 180px;
+			}
+			.div3 ul li{
+				display: inline-block;
+				margin-left: 20px;
+				margin-top: 10px;
+				color: #262626;
+			}
+			.divli .ule li div{
+				margin-left: 25px;
+			}
+			
+			.divimg{
+				position: absolute;
+				margin-top: 400px;
+				margin-left: 100px;
+				width: 210px;
+			}
+			
+		 </style>
+	</head>
+	<body>
+		<div class="divimg">
+			<iframe name="mainFrame" width="100%" height="240" frameborder="0"></iframe>
+		</div>
+		<div class="div1">
+			<div class="div2">
+				<div style="width: 180px;height: 15px;margin-top: 10px;background-color: #47a3d0;"></div>
+					<img src="imgs/dog.gif" class="img">
+					<div style="color:  #47a3d0;text-align: center;">
+						<h2>二狗子</h2>
+						<label>求职意向：全栈工程师</label>
+					</div>
+					<br>
+					<div class="divli">
+					<ul style="text-align: center;">
+						<li style="letter-spacing: 8px;"><h4>基础信息</h4></li>
+						<div style="border: 1px solid whitesmoke;margin: 10px auto;width: 150px;background-color:whitesmoke;"></div>
+						<li><img src="imgs/man.png" style="width: 17px;margin-left: -32px;">&nbsp;年龄：20岁</li>
+						<li><img src="imgs/log.png" style="width: 17px;margin-left: -3px;">&nbsp;现居：湖北武汉</li>
+						<li><img src="imgs/man.png" style="width: 17px;margin-left: -3px;">&nbsp;政治面貌：团员</li>
+						<li><img src="imgs/work.png" style="width: 18px;margin-left: -3px;">&nbsp;工作经验：应届</li>
+					</ul>
+					<br>
+					<br>
+					<ul style="text-align: center;">
+						<li style="letter-spacing: 8px;"><h4>联系方式</h4></li>
+						<div style="border: 1px solid whitesmoke;margin: 10px auto;width: 150px;background-color:whitesmoke;"></div>
+						<li><a href="demo02.html" style="color: #e4e4e4;" target="mainFrame"><img src="imgs/wx.png" style="width: 17px;margin-left: 2px;">&nbsp;微信：眼里都是你</a></li>
+						<li><img src="imgs/ph.png" style="width: 17px;margin-left: -20px;">&nbsp;19999556666</li>
+						<li><img src="imgs/em.png" style="width: 17px;margin-left: 0px;">&nbsp;docer@wps.com</li>
+					</ul>
+					<br>
+					<br>
+					<ul class="ule">
+						<li style="letter-spacing: 8px;text-align: center;"><h4>技能评价</h4></li>
+						<div style="border: 1px solid whitesmoke;margin: 10px auto;width: 150px;background-color:whitesmoke;"></div>
+						<li>
+							<div>C语言程序设计</div>
+							<div style="width: 100px;height: 10px;background-color:#47a3d0;margin-left: 25px;"></div>
+						</li>
+						<li>
+							<div>JavaSE</div>	
+							<div style="width: 130px;height: 10px;background-color: #47a3d0;margin-left: 25px;"></div>
+						</li>
+						<li>
+							<div>JavaWeb</div>
+							<div style="width: 100px;height: 10px;background-color: #47a3d0;margin-left: 25px;"></div>
+						</li>
+						<li>
+							<div >
+								C++
+							</div>
+							<div style="width: 50px;height: 10px;background-color: #47a3d0;margin-left: 25px;"></div>
+						</li>
+					</ul>
+					</div>
+					<div style="width: 180px;height: 15px;margin-top: 25px;background-color: #47a3d0;"></div>
+			</div>
+			<div class="div3">
+					<ul>
+						<li style="color:#06c ;"><img src="imgs/ed.png" style="width: 19px;margin-left: 0px;">&nbsp;<strong>教育背景</strong></li>
+						<li style="color:#06c ;"><strong>Education</strong></li>
+					</ul>
+					<div style="border: 1px solid whitesmoke;margin: 2px auto;width: 430px;background-color:black;"></div>
+					<ul>
+						<li style="color:#06c ;"><strong>2020.09-2023.6</strong></li>
+						<li style="color:#06c ;"><strong><a href="#" target="_blank">XXXX理工学院</a></strong></li>
+						<li style="color:#06c ;"><strong>物联网本科</strong></li>
+						<li>
+							<label>
+								主修课程：C语言课程设计、Java语言课程设计、单边机微机原理、计算机组成原理、HTML5网页前端设计、
+								数据结构、Mysql、ZigBee、嵌入式系统原理与应用、STM32等。
+							</label>
+						</li>
+					</ul>
+					<br>
+					<ul>
+						<li style="color:#06c ;"><img src="imgs/ex.png" style="width: 19px;margin-left: 0px;">&nbsp;<strong>工作经历</strong></li>
+						<li style="color:#06c ;"><strong>Experience</strong></li>
+					</ul>
+					<div style="border: 1px solid whitesmoke;margin: 2px auto;width: 430px;background-color:black;"></div>
+					<ul>
+						<li style="color:#06c ;"><strong>2022.09-2023.6</strong></li>
+						<li style="color:#06c ;"><a href="https://www.qcc.com/firm/f1c5372005e04ba99175d5fd3db7b8fc.html" target="_blank"><strong>腾讯有限公司</strong></a></li>
+						<li style="color:#06c ;"><strong>岗位：游戏UI设计</strong></li>
+						<li>
+						1.良好的执行《巨龙之战》，《王座争霸》在今日头条，UC头条，爱奇艺与朋友圈等平台的广告投放计划，确保所有广告按时上线
+						</li>
+						<li>2.跟踪投放效果并进行优化，控制投放成本并对比收益情况</li>
+						<li>3.制作广告投放数据表，总结投放效果，分析优化方向，向投放总监汇报
+					   </li>
+					</ul>
+					<br>
+					<ul>
+						<li style="color:#06c ;"><img src="imgs/aw.png" style="width: 19px;margin-left: 0px;">&nbsp;<strong>个人技能</strong></li>
+					</ul>
+					<div style="border: 1px solid whitesmoke;margin: 2px auto;width: 430px;background-color:black;"></div>
+					<ul>
+						<li>熟练使用JSP、Servlet、Jquery、Ajax、XML、JavaScript、css、Html等技术</li>
+						<li>熟练掌握springMVC、Spring、MyBatis等开源框架，并能进行开发</li>
+						<li>熟练掌握Mysql数据库，并进行sql优化
+						熟悉Linux常用命令</li>
+						<li>握常用的JAVA设计模式、理解MVC设计思想，熟悉软件设计开发流程</li>
+					</ul>
+					<ul>
+						<li style="color:#06c ;"><img src="imgs/am.png" style="width: 19px;margin-left: 0px;">&nbsp;<strong>自我评价</strong></li>
+						<li style="color:#06c ;"><strong>About Me</strong></li>
+					</ul>
+					<div style="border: 1px solid whitesmoke;margin: 2px auto;width: 430px;background-color:black;"></div>
+					<ul>
+					     <li>
+							 <label>
+								 熟练使用express,koa等后端框架，可以使用express和koa进行后端的开发,熟悉es6的相关语法，熟悉MySQL、Redis、MongoDB等数据库,
+								 熟悉python，会编写比较复杂的网络爬虫
+								 熟悉linux的基本操作，会部署服务器，能熟练的使用Docker。
+								 学习能力强，善于接受新事物，解决新问题，具有团队合作精神和独立的研究能力，有工作责任心
+							 </label>
+						 </li>
+					</ul>
+			</div>
+			<div style="height: 5px;background-color: #47a3d0;float: left;width: 650px;margin-top: 6px;border-radius: 1px;"></div>
+		</div>
+		
+	</body>
+</html>
